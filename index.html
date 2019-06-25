@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <title>Rafael Dias</title>
   </head>
   <body>
@@ -62,7 +63,6 @@
             <li data-target="#carouselSite" data-slide-to="2"></li>
             <li data-target="#carouselSite" data-slide-to="3"></li>
         </ol>
-
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="imgs/img1.jpg" class="img-fluid d-block">
@@ -104,25 +104,25 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center mt-5">
-                <h1 class="display-3">The standard Lorem Ipsum passage, used since the 1500s</h1>
+                <div class="col-11 col-md-12 text-center ml-md-0 ml-2 my-5">
+                <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i> The standard Lorem Ipsum</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
         <div class="row mb-5">
             <div class="col-sm-6 col-md-4 mb-3">
                 <nav id="navbarVertical" class="navbar navbar-light bg-light">
-                    <nav class="nav nav-pills flex-colimn">
+                    <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item1">Lorem Ipsum</a>
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ml-3" href="#item1-1">Aldus PageMaker</a>
-                            <a class="nav-link ml-3" href="#item1-2">randomised words</a>
+                            <a class="nav-link ml-4" href="#item1-1">Aldus PageMaker</a>
+                            <a class="nav-link ml-4" href="#item1-2">randomised words</a>
                         </nav>
-                        <a class="nav-link mt-2" href="#item2">Finibus Bonorum </a>
-                        <a class="nav-link mt-2" href="#item3">Sydney College</a>
+                        <a class="nav-link my-2" href="#item2">Finibus Bonorum </a>
+                        <a class="nav-link my-2" href="#item3">Sydney College</a>
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ml-3" href="#item3-1">repeat predefined chunks</a>
-                            <a class="nav-link ml-3" href="#item3-2">handful of model</a>
+                            <a class="nav-link ml-4" href="#item3-1">repeat predefined chunks</a>
+                            <a class="nav-link ml-4" href="#item3-2">handful of model</a>
                         </nav>
                     </nav>
                 </nav>
@@ -258,7 +258,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="display-4">1914 translation by H. Rackham</h1>
+                    <h1 class="display-4"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i> 1914 translation by H. Rackham</h1>
                     <p class="lead">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
                     <hr>
 
@@ -318,10 +318,123 @@
 
                     </div>
                 </div>
-
             </div>
         </div>
 
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i> Hello World!</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="col-sm-12 col-md-10 col-lg-8">
+
+                <form>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+                            <label for="inputNome">Seu nome</label>
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label for="inputSobrenome">Seu sobrenome</label>
+                            <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-12">
+                            <label for="inputEnd">Seu Endereço</label>
+                            <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo">
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+                            <label for="inputCidade">Sua cidade</label>
+                            <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+                        </div>
+
+                        <div class="form-group col-sm-4">
+                            <label for="inputEst">Seu estado</label>
+                            <select id="inputEst" class="form-control">
+                                <option selected>Escolha seu estado</option>
+                                <option>...</option>
+                                <option>...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-sm-2">
+                            <label for="inputCEP">Seu CEP</label>
+                            <input type="text" class="form-control" id="inputCEP" placeholder="00000-000">
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox">Aceito os Termos
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">     
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <a tabindex="0" class="btn btn-primary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Ajuda Popover" data-content="Corpo do Popover blá blá blá...">Ajuda</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 mb-3"><hr></div>
+            <div class="col-sm-4">
+                <h3>Curso</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Menu</h3>
+                <div class="list-group text-center">
+                    <a href="#" class="list-group-item list-group-item-action">Perfil</a>
+                    <a href="#" class="list-group-item list-group-item-action">Serviços</a>
+                    <a href="#" class="list-group-item list-group-item-action">Depoimentos</a>
+                    <a href="#" class="list-group-item list-group-item-action">Contatos</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Social</h3>
+                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                    <a class="btn btn-primary" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+                    <a class="btn btn-primary" href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
+                    <a class="btn btn-primary" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                    <a class="btn btn-primary" href="#"><i class="fa fa-linkedin"></i> linkedin</a>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+                    <footer class="blockquote-footer">Biz Stone <cite title="Titulo">Fundador do Twitter</cite></footer>
+                </blockquote>
+            </div>
+
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -329,5 +442,11 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
+    <script>
+        $(function(){
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
   </body>
 </html>
